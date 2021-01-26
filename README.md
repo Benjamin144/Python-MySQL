@@ -54,4 +54,11 @@ Running MySQL commands from Python code, Connects to MySQL database with hostnam
 ## Cursor
 A data structure that allows us to access the rows of data in a database. Allows us to run SQL queries and access the results. Create a cursor from a database connection then use it to execute SQL 
 
+## Create A Table
+The SQL 'CREATE TABLE' command, Creates a DB Table, Executes the command, giving it the names and types of columns that the table should contain.
 
+## INSERT
+The SQL 'INSERT' command Inserts Data Into A Table, Specify the table and columns to insert into, and the values for each column
+
+## EXECUTE MANY
+A method of the cursor object, which allows multiple SQL Statements to be executed. We do this by passing a SQL statement and a list of tuples containing data values, and the statement will be executed for each tuple.
