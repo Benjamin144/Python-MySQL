@@ -43,3 +43,15 @@ We continually tweak and adjust this template to help give you the best experien
 --------
 
 Happy coding!
+
+##  Python And MySQL Introduction
+Running MySQL commands from Python code. Connecting to MySQL database with hostname, user and password is not required on this Gitpod platform. 
+This tutorial is geared to people with their own hosting platform..Cloud9 in particular. Uses the pymysql library and it's inbuilt methods.
+
+## Connecting to MySQL from Python
+Running MySQL commands from Python code, Connects to MySQL database with hostname, user and password. Use the pymysql library and it's inbuilt methods
+
+## Cursor
+A data structure that allows us to access the rows of data in a database. Allows us to run SQL queries and access the results. Create a cursor from a database connection then use it to execute SQL 
+
+
